@@ -1,0 +1,34 @@
+/*Seccion Preguntas Frecuentes HTML*/
+
+.page-header{
+    background-color: $color-fondomain;
+    width: 100%;
+    height: 100px;
+    padding-top: 15px;
+    div{
+        h2{
+            color: black;
+            margin-left: 60px;
+            padding-top: 20px;
+            font-size: 36px;
+            font-weight: bolder;
+        }
+    }
+}
+
+.user-content{
+    background-color: $color-blanco;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 60px;
+    div{
+        p{
+            color: $color-negro;
+            font-size: 14px;
+            line-height: 45px;
+            span{
+                @include spantexto
+            }
+        }
+    }
+}

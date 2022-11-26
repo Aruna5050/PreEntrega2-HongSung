@@ -1,0 +1,38 @@
+/*Index HTML*/
+
+
+main{
+    background: $color-fondomain;
+    padding: 40px 20px;
+    margin-top: 30px;
+    article{
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 40px;
+        background: $color-fondoblanco;
+        h1{
+            @include textoalineado
+        }
+        h2{
+            @include textoalineado
+        }
+        p{
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 300px;
+            color: $color-gris;
+        }
+        .imagen{
+            width: 600px;
+            display: block;    
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .videoinicio{
+            text-align: center;
+        }
+    }
+}
+
+
